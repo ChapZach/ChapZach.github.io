@@ -1,24 +1,10 @@
-collections:
-  authors:
-    output: true
+permalink: /posts/:title
+markdown: kramdown
 
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
-plugins:
-  - jekyll-feed
+gems:
   - jekyll-sitemap
-  - jekyll-seo-tag
+
+name: Zach Holman
+url: https://zachholman.com/left
+description: A fantastic blog that is fantastic.
+twitter: holman
